@@ -1,8 +1,12 @@
 
-html, body {
+html, 
+
+body {
   font-family: 'Lato', sans-serif;
 font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+
+    background-color: yellowgreen;
   }
   
   p {
@@ -34,7 +38,7 @@ font-family: 'Nunito', sans-serif;
   }
   
   address {
-    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
   }
   
