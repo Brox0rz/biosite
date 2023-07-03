@@ -32,6 +32,27 @@ h1, h2 {
   font-family: 'Lato', sans-serif;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
   
   h1 {
     font-weight: 700;
@@ -53,7 +74,12 @@ h1, h2 {
 
   .image-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 5px;
+  }
+  .image-container img {
+    margin-right: 5%;
+    margin-left: 5%
   }
   
   
